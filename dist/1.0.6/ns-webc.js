@@ -41423,7 +41423,7 @@ const JI = {
     ...t
   });
   return new rB(bY(e), r).format(i);
-}, hB = (i) => (KT("data-v-f1d9aa15"), i = i(), JT(), i), cB = { class: "ns-codeide-option-box" }, dB = { class: "ns-codeide-optionleft-box" }, fB = ["src"], pB = ["src"], OB = { class: "ns-codeide-optionright-box" }, EB = /* @__PURE__ */ hB(() => /* @__PURE__ */ ke("div", { id: "code" }, null, -1)), mB = { class: "ns-codeide-hide" }, gB = /* @__PURE__ */ fi({
+}, hB = (i) => (KT("data-v-4fa50bd3"), i = i(), JT(), i), cB = { class: "ns-codeide-option-box" }, dB = { class: "ns-codeide-optionleft-box" }, fB = ["src"], pB = ["src"], OB = { class: "ns-codeide-optionright-box" }, EB = /* @__PURE__ */ hB(() => /* @__PURE__ */ ke("div", { id: "code" }, null, -1)), mB = { class: "ns-codeide-hide" }, gB = /* @__PURE__ */ fi({
   __name: "codeide",
   props: {
     code: {
@@ -41561,9 +41561,9 @@ const JI = {
       ])
     ], 512));
   }
-}), bB = `.ns-code-ide-box[data-v-f1d9aa15]{width:100%;height:100%;overflow:hidden;box-sizing:border-box;overflow-y:auto}.ns-code-ide-box .ns-codeide-option-box[data-v-f1d9aa15]{width:100%;height:24px;overflow:hidden;box-sizing:border-box;display:flex;justify-content:space-between;align-items:center;border:1px solid var(--ns-border-color);border-bottom:0;background-color:var(--ns-background-gray)}.ns-code-ide-box .ns-codeide-option-box[data-v-f1d9aa15] img{width:16px;height:16px;margin:0 5px;cursor:pointer}.ns-code-ide-box .ns-codeide-option-box .ns-codeide-optionleft-box[data-v-f1d9aa15]{width:50%;height:100%;overflow:hidden;box-sizing:border-box;display:flex;justify-content:flex-start;align-items:center}.ns-code-ide-box .ns-codeide-option-box .ns-codeide-optionright-box[data-v-f1d9aa15]{width:50%;height:100%;overflow:hidden;box-sizing:border-box;display:flex;justify-content:flex-end;align-items:center}.ns-code-ide-box #code[data-v-f1d9aa15]{width:100%;height:calc(100% - 24px);overflow:hidden;box-sizing:border-box;overflow-y:auto;text-align:left}.ns-code-ide-box #code .cm-editor[data-v-f1d9aa15]{height:100%!important;width:100%}.ns-code-ide-box #code .cm-editor .cm-scroller[data-v-f1d9aa15]{height:100%;overflow-y:auto}
+}), bB = `.ns-code-ide-box[data-v-4fa50bd3]{width:100%;height:100%;overflow:hidden;box-sizing:border-box;overflow-y:auto}.ns-code-ide-box .ns-codeide-option-box[data-v-4fa50bd3]{width:100%;height:24px;overflow:hidden;box-sizing:border-box;display:flex;justify-content:space-between;align-items:center;border:1px solid var(--ns-border-color);border-bottom:0;background-color:var(--ns-background-gray)}.ns-code-ide-box .ns-codeide-option-box[data-v-4fa50bd3] img{width:16px;height:16px;margin:0 5px}.ns-code-ide-box .ns-codeide-option-box[data-v-4fa50bd3] img:hover{cursor:pointer;filter:drop-shadow(0 0 1px var(--ns-primary-light-1))}.ns-code-ide-box .ns-codeide-option-box .ns-codeide-optionleft-box[data-v-4fa50bd3]{width:50%;height:100%;overflow:hidden;box-sizing:border-box;display:flex;justify-content:flex-start;align-items:center}.ns-code-ide-box .ns-codeide-option-box .ns-codeide-optionright-box[data-v-4fa50bd3]{width:50%;height:100%;overflow:hidden;box-sizing:border-box;display:flex;justify-content:flex-end;align-items:center}.ns-code-ide-box #code[data-v-4fa50bd3]{width:100%;height:calc(100% - 24px);overflow:hidden;box-sizing:border-box;overflow-y:auto;text-align:left}
 `, TB = `#code{background-color:#f7f7f7}#code .cm-editor{height:100%!important;width:100%}#code .cm-editor .cm-scroller{height:100%;overflow-y:auto}
-`, SB = /* @__PURE__ */ xr(gB, [["styles", [bB, TB]], ["__scopeId", "data-v-f1d9aa15"]]);
+`, SB = /* @__PURE__ */ xr(gB, [["styles", [bB, TB]], ["__scopeId", "data-v-4fa50bd3"]]);
 class Zt {
   constructor(e) {
     this.table = e;
@@ -58174,7 +58174,7 @@ function oW(i, e, t, r, o, s) {
 const sW = /* @__PURE__ */ xr(qF, [["render", oW], ["styles", [jF]], ["__scopeId", "data-v-b1580676"]]);
 console.log(`↓↓↓↓↓↓↓↓↓↓ 加载组件 ns-table ↓↓↓↓↓↓↓↓↓↓
 `, `本组件为Tabulator的二次封装
-感谢 Tabulator 为 ns-table 的支持`, `
+感谢 Tabulator 为 ns-table 提供的支持`, `
 ↑↑↑↑↑↑↑↑↑↑ 加载组件 ns-table ↑↑↑↑↑↑↑↑↑↑`);
 const ET = {
   NsAjax: Fl
