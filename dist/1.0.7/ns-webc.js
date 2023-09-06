@@ -102202,17 +102202,28 @@ console.log(`↓↓↓↓↓↓↓↓↓↓ 加载组件 ns-table ↓↓↓↓�
 ↑↑↑↑↑↑↑↑↑↑ 加载组件 ns-table ↑↑↑↑↑↑↑↑↑↑`);
 const qB = {
   NsAjax: Vee
+  // Ajax类
 }, jB = {
   "ns-sandbox": fte,
+  // 沙盒组件
   "ns-splitpane": Ste,
+  // 分割面板组件
   "ns-codeide": OUe,
+  // 代码编辑器组件
   "ns-table": AGe,
+  // 表格组件
   "ns-floatingbox": xGe,
+  // 弹窗组件
   "ns-framebox": MGe,
+  // 主布局框架组件
   "ns-contentbox": HGe,
+  // 
   "ns-header": aBe,
+  // 头部组件
   "ns-text": lBe,
+  // 文本组件
   "ns-json": hBe
+  // JSON数据显示
 };
 for (let r in jB) {
   const e = jB[r], t = Y1(e);
