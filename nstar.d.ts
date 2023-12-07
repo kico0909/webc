@@ -22,12 +22,22 @@ declare class NSAJAX {
 
 interface Window {
   NsAjax: typeof NSAJAX;
-  "ns-contentbox": CustomElementConstructor;
-  "ns-floatingbox": CustomElementConstructor;
-  "ns-codeide": CustomElementConstructor;
-  "ns-framebox": CustomElementConstructor;
-  "ns-header": CustomElementConstructor;
-  "ns-sandbox": CustomElementConstructor;
-  "ns-table": CustomElementConstructor;
-  "ns-text": CustomElementConstructor;
+  NsFloatingbox: {
+    open(boxId: string, evt: MouseEvent): void
+    close(boxId: string): void
+  }
 }
+
+interface HTMLElementTagNameMap {
+  NsContentbox: HTMLElement;
+  NsFloatingbox: HTMLElement;
+ 
+  NsCodeide: HTMLElement;
+  NsFramebox: HTMLElement;
+  NsHeader: HTMLElement;
+  NsSandbox: HTMLElement;
+  NsTable: HTMLElement;
+  NsText: HTMLElement;
+}
+
+declare function $t (path: string): string;
