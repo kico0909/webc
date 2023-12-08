@@ -2,9 +2,21 @@ interface TAjaxReturn<T> {
   code: number;
   message: string;
   success: boolean;
-  data: T;
+  data: {
+    records: T;
+    total: string;
+    current: string;
+    orders: any[];
+    optimizeCountSql: boolean;
+    searchCount: boolean;
+    maxLimit?: any
+    countId?: any
+    pages: string;
+  };
 }
+
 type TNsAjaxMethod = 'GET' | 'POST' | 'PUT' | 'DELETE' | 'FORMDATA';
+
 type TResponseType = 'document' | 'blob' | 'text' | 'json' | 'file' | 'arraybuffer';
 
 declare class NSAJAX {
