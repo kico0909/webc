@@ -35,7 +35,7 @@ declare class NSAJAX {
 interface Window {
   NsAjax: typeof NSAJAX;
   NsFloatingbox: {
-    open(boxId: string, evt: MouseEvent): void
+    open(boxId: string, evt: MouseEvent, d?: any): void
     close(boxId: string): void
   }
 }
@@ -53,3 +53,14 @@ interface HTMLElementTagNameMap {
 }
 
 declare function $t (path: string): string;
+
+declare const $NsFloatingbox: {
+  open(boxId: string, evt: MouseEvent, d?: any): void
+  close(boxId: string): void
+}
+
+declare function $NsSetData (data: any): void;
+
+declare function $NsGetData (): any;
+
+declare const $nsTemp: any;
