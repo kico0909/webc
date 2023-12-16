@@ -8960,7 +8960,7 @@ function cte() {
   return window[`NS@${IF}`];
 }
 function fte() {
-  console.log("--  NStar-UI: 初始化中...                       "), window.$t = ute, window.$NsSetData = hte, window.$NsGetData = cte;
+  console.log("--  NStar-UI: 初始化中...                       "), window.$t = ute, window.$NsSetData = hte, window.$NsGetData = cte, window.$NsTemp = null;
 }
 const dte = {
   "Content-Type": "application/json;charset=UTF-8;"
