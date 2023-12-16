@@ -102037,7 +102037,7 @@ const VGe = /* @__PURE__ */ go(QGe, [["render", BGe], ["styles", [UGe]]]), FGe =
   setup(r, { emit: e }) {
     return {};
   }
-}), rBe = `[data-v-b1580676]:root,[data-v-b1580676]:host{--ns-primary: #28415a;--ns-primary-light-1: #3c5a7d;--ns-primary-light-2: #4b73a0;--ns-primary-light-3: #5a8cc3;--ns-primary-disabled: #466487;--ns-success: #5f785a;--ns-success-light-1: #73917d;--ns-success-light-2: #82aaa0;--ns-success-light-3: #91c3c3;--ns-success-disabled: #788778;--ns-warning: #dc8c50;--ns-warning-light-1: #f5a573;--ns-warning-light-2: #faaf7d;--ns-warning-light-3: #ffb987;--ns-warning-disabled: #e1a57d;--ns-error: #aa5032;--ns-error-light-1: #c36955;--ns-error-light-2: #d28278;--ns-error-light-3: #e19b9b;--ns-error-disabled: #cd876e;--ns-info: #b9beb4;--ns-text: #1d1d1d;--ns-border-shadow-color: #6c686e;--ns-border-color: #58545a;--ns-background-gray: #dfdfdf;--ns-size-text-normal: 14px;--ns-size-top-title: 22px;--ns-size-text-title: 18px;--ns-size-text-subtitle: 16px;--ns-weight-text: 900;--ns-border-radius: 4px;--ns-border-width: 1px;--ns-text-color-normal: var(--ns-text);--ns-text-color-primary: var(--ns-primary);--ns-text-color-success: var(--ns-success);--ns-text-color-warning: var(--ns-warning);--ns-text-color-error: var(--ns-error);--ns-text-color-info: var(--ns-info)}.ns-header-box[data-v-b1580676]{width:100%;height:100%;overflow:hidden;box-sizing:border-box;display:flex;justify-content:space-evenly;align-items:center;position:relative;z-index:100}.ns-header-box .ns-header-item[data-v-b1580676]{width:33%;height:100%;overflow:hidden;box-sizing:border-box;padding:0 10px;display:flex;align-items:center;color:var(--ns-text-color-info)}.ns-header-box .ns-header-left[data-v-b1580676]{justify-content:flex-start}.ns-header-box .ns-header-left .ns-header-icon-box[data-v-b1580676]{width:200px;height:100%;overflow:hidden;box-sizing:border-box;display:flex;justify-content:center;align-items:center}.ns-header-box .ns-header-left .ns-header-title-box[data-v-b1580676]{flex-grow:1;font-size:var(--ns-size-top-title);color:var(--ns-text-color-info)}.ns-header-box .ns-header-middle[data-v-b1580676]{justify-content:center}.ns-header-box .ns-header-right[data-v-b1580676]{justify-content:flex-end}
+}), rBe = `[data-v-33345e83]:root,[data-v-33345e83]:host{--ns-primary: #28415a;--ns-primary-light-1: #3c5a7d;--ns-primary-light-2: #4b73a0;--ns-primary-light-3: #5a8cc3;--ns-primary-disabled: #466487;--ns-success: #5f785a;--ns-success-light-1: #73917d;--ns-success-light-2: #82aaa0;--ns-success-light-3: #91c3c3;--ns-success-disabled: #788778;--ns-warning: #dc8c50;--ns-warning-light-1: #f5a573;--ns-warning-light-2: #faaf7d;--ns-warning-light-3: #ffb987;--ns-warning-disabled: #e1a57d;--ns-error: #aa5032;--ns-error-light-1: #c36955;--ns-error-light-2: #d28278;--ns-error-light-3: #e19b9b;--ns-error-disabled: #cd876e;--ns-info: #b9beb4;--ns-text: #1d1d1d;--ns-border-shadow-color: #6c686e;--ns-border-color: #58545a;--ns-background-gray: #dfdfdf;--ns-size-text-normal: 14px;--ns-size-top-title: 22px;--ns-size-text-title: 18px;--ns-size-text-subtitle: 16px;--ns-weight-text: 900;--ns-border-radius: 4px;--ns-border-width: 1px;--ns-text-color-normal: var(--ns-text);--ns-text-color-primary: var(--ns-primary);--ns-text-color-success: var(--ns-success);--ns-text-color-warning: var(--ns-warning);--ns-text-color-error: var(--ns-error);--ns-text-color-info: var(--ns-info)}.ns-header-box[data-v-33345e83]{width:100%;height:100%;overflow:hidden;box-sizing:border-box;display:flex;justify-content:space-evenly;align-items:center;position:relative;z-index:100}.ns-header-box .ns-header-item[data-v-33345e83]{width:33%;height:100%;overflow:hidden;box-sizing:border-box;padding:0 10px;display:flex;align-items:center;color:var(--ns-text-color-info)}.ns-header-box .ns-header-left[data-v-33345e83]{justify-content:flex-start}.ns-header-box .ns-header-left .ns-header-icon-box[data-v-33345e83]{width:200px;height:100%;overflow:hidden;box-sizing:border-box;display:flex;justify-content:center;align-items:center}.ns-header-box .ns-header-left .ns-header-title-box[data-v-33345e83]{flex-grow:1;font-size:var(--ns-size-top-title);color:var(--ns-text-color-info)}.ns-header-box .ns-header-middle[data-v-33345e83]{justify-content:center}.ns-header-box .ns-header-right[data-v-33345e83]{justify-content:flex-end}
 `, iBe = { class: "ns-header-box" }, nBe = { class: "ns-header-item ns-header-left" }, aBe = ["src"], oBe = { class: "ns-header-title-box" }, sBe = { class: "ns-header-item ns-header-middle" }, lBe = { class: "ns-header-item ns-header-right" };
 function uBe(r, e, t, i, n, a) {
   const o = XV("star");
@@ -102066,7 +102066,7 @@ function uBe(r, e, t, i, n, a) {
     ])
   ]);
 }
-const hBe = /* @__PURE__ */ go(tBe, [["render", uBe], ["styles", [rBe]], ["__scopeId", "data-v-b1580676"]]), cBe = /* @__PURE__ */ xi({
+const hBe = /* @__PURE__ */ go(tBe, [["render", uBe], ["styles", [rBe]], ["__scopeId", "data-v-33345e83"]]), cBe = /* @__PURE__ */ xi({
   __name: "text",
   props: {
     type: {
@@ -102082,13 +102082,17 @@ const hBe = /* @__PURE__ */ go(tBe, [["render", uBe], ["styles", [rBe]], ["__sco
       type: Boolean,
       default: () => {
       }
+    },
+    color: {
+      type: String,
+      default: ""
     }
   },
   setup(r) {
     const e = r;
-    po(() => {
-    });
     function t() {
+      if (e.color !== "")
+        return "";
       switch (e.type) {
         case "primary":
           return " ns-primary";
@@ -102113,15 +102117,19 @@ const hBe = /* @__PURE__ */ go(tBe, [["render", uBe], ["styles", [rBe]], ["__sco
     function a() {
       return t() + n();
     }
-    return (o, s) => (St(), ir("span", {
+    function o() {
+      return e.color === "" ? "" : `color: ${e.color} !important;`;
+    }
+    return po(() => {
+    }), (s, l) => (St(), ir("span", {
       class: Oh(`${a()}`),
-      style: vn(`${i()}`)
+      style: vn(`${i()} ${o()}`)
     }, [
-      oi(o.$slots, "default", {}, void 0, !0)
+      oi(s.$slots, "default", {}, void 0, !0)
     ], 6));
   }
-}), fBe = `[data-v-cf2565b5]:root,[data-v-cf2565b5]:host{--ns-primary: #28415a;--ns-primary-light-1: #3c5a7d;--ns-primary-light-2: #4b73a0;--ns-primary-light-3: #5a8cc3;--ns-primary-disabled: #466487;--ns-success: #5f785a;--ns-success-light-1: #73917d;--ns-success-light-2: #82aaa0;--ns-success-light-3: #91c3c3;--ns-success-disabled: #788778;--ns-warning: #dc8c50;--ns-warning-light-1: #f5a573;--ns-warning-light-2: #faaf7d;--ns-warning-light-3: #ffb987;--ns-warning-disabled: #e1a57d;--ns-error: #aa5032;--ns-error-light-1: #c36955;--ns-error-light-2: #d28278;--ns-error-light-3: #e19b9b;--ns-error-disabled: #cd876e;--ns-info: #b9beb4;--ns-text: #1d1d1d;--ns-border-shadow-color: #6c686e;--ns-border-color: #58545a;--ns-background-gray: #dfdfdf;--ns-size-text-normal: 14px;--ns-size-top-title: 22px;--ns-size-text-title: 18px;--ns-size-text-subtitle: 16px;--ns-weight-text: 900;--ns-border-radius: 4px;--ns-border-width: 1px;--ns-text-color-normal: var(--ns-text);--ns-text-color-primary: var(--ns-primary);--ns-text-color-success: var(--ns-success);--ns-text-color-warning: var(--ns-warning);--ns-text-color-error: var(--ns-error);--ns-text-color-info: var(--ns-info)}.ns-primary[data-v-cf2565b5]{color:var(--ns-primary)}.ns-success[data-v-cf2565b5]{color:var(--ns-success)}.ns-warning[data-v-cf2565b5]{color:var(--ns-warning)}.ns-error[data-v-cf2565b5]{color:var(--ns-error)}.ns-info[data-v-cf2565b5]{color:var(--ns-info)}.ns-default[data-v-cf2565b5]{color:var(--ns-text)}.ns-weight[data-v-cf2565b5]{font-weight:var(--ns-weight-text)}
-`, dBe = /* @__PURE__ */ go(cBe, [["styles", [fBe]], ["__scopeId", "data-v-cf2565b5"]]), pBe = ["innerHTML"], gBe = /* @__PURE__ */ xi({
+}), fBe = `[data-v-4277a2c7]:root,[data-v-4277a2c7]:host{--ns-primary: #28415a;--ns-primary-light-1: #3c5a7d;--ns-primary-light-2: #4b73a0;--ns-primary-light-3: #5a8cc3;--ns-primary-disabled: #466487;--ns-success: #5f785a;--ns-success-light-1: #73917d;--ns-success-light-2: #82aaa0;--ns-success-light-3: #91c3c3;--ns-success-disabled: #788778;--ns-warning: #dc8c50;--ns-warning-light-1: #f5a573;--ns-warning-light-2: #faaf7d;--ns-warning-light-3: #ffb987;--ns-warning-disabled: #e1a57d;--ns-error: #aa5032;--ns-error-light-1: #c36955;--ns-error-light-2: #d28278;--ns-error-light-3: #e19b9b;--ns-error-disabled: #cd876e;--ns-info: #b9beb4;--ns-text: #1d1d1d;--ns-border-shadow-color: #6c686e;--ns-border-color: #58545a;--ns-background-gray: #dfdfdf;--ns-size-text-normal: 14px;--ns-size-top-title: 22px;--ns-size-text-title: 18px;--ns-size-text-subtitle: 16px;--ns-weight-text: 900;--ns-border-radius: 4px;--ns-border-width: 1px;--ns-text-color-normal: var(--ns-text);--ns-text-color-primary: var(--ns-primary);--ns-text-color-success: var(--ns-success);--ns-text-color-warning: var(--ns-warning);--ns-text-color-error: var(--ns-error);--ns-text-color-info: var(--ns-info)}.ns-primary[data-v-4277a2c7]{color:var(--ns-primary)}.ns-success[data-v-4277a2c7]{color:var(--ns-success)}.ns-warning[data-v-4277a2c7]{color:var(--ns-warning)}.ns-error[data-v-4277a2c7]{color:var(--ns-error)}.ns-info[data-v-4277a2c7]{color:var(--ns-info)}.ns-default[data-v-4277a2c7]{color:var(--ns-text)}.ns-weight[data-v-4277a2c7]{font-weight:var(--ns-weight-text)}
+`, dBe = /* @__PURE__ */ go(cBe, [["styles", [fBe]], ["__scopeId", "data-v-4277a2c7"]]), pBe = ["innerHTML"], gBe = /* @__PURE__ */ xi({
   __name: "json",
   props: {
     height: {

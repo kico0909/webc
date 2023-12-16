@@ -34,10 +34,10 @@ declare class NSAJAX {
 
 interface Window {
   NsAjax: typeof NSAJAX;
-  NsFloatingbox: {
-    open(boxId: string, evt: MouseEvent, d?: any): void
-    close(boxId: string): void
-  }
+  // NsFloatingbox: {
+  //   open(boxId: string, evt: MouseEvent, d?: any): void
+  //   close(boxId: string): void
+  // }
 }
 
 interface HTMLElementTagNameMap {
